@@ -1,0 +1,29 @@
+{
+  "name": "coding-training",
+  "version": "1.0.0",
+  "description": "Solutions of various coding challenges/problems",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "cw": "node code-wars-api"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ikke09/Coding-Training.git"
+  },
+  "keywords": [
+    "coding",
+    "challenges"
+  ],
+  "author": "ikke09",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ikke09/Coding-Training/issues"
+  },
+  "homepage": "https://github.com/ikke09/Coding-Training#readme",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "node-fetch": "^2.6.0",
+    "yargs": "^15.4.0"
+  }
+}
