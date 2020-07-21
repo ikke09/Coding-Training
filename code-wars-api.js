@@ -18,4 +18,18 @@ const codeWarsUrl = `https://www.codewars.com/api/v1/code-challenges/${argv.id}?
 
 fetch(codeWarsUrl)
     .then(res => res.json())
-    .then(data => console.log(data));
+    .then(codeWarsData => {
+        if (argv.full) {
+            console.log(codeWarsData);
+        } else {
+            console.info('To see full informations provide the --full argument')
+            console.log({
+                id: codeWarsData.id,
+                slug: codeWarsData.slug,
+                url: codeWarsData.url
+            });
+        }
+    })
+    .catch(error => console.error(error));
+
+
