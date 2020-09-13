@@ -23,7 +23,7 @@
   "homepage": "https://github.com/ikke09/Coding-Training#readme",
   "dependencies": {
     "dotenv": "^8.2.0",
-    "node-fetch": "^2.6.0",
+    "node-fetch": "^2.6.1",
     "yargs": "^15.4.0"
   },
   "devDependencies": {
